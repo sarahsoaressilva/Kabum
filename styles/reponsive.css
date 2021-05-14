@@ -1,0 +1,32 @@
+@media screen and (max-width: 700px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn {
+        margin-top: 15px;
+        width: 190px;
+        height: 50px;
+        text-align: center;
+    }
+
+    .logo {
+        width: 50%;
+    }
+
+    .descricao-filme {
+        font-size: 12px;
+    }
+
+    .flex-item { 
+        height: 196px;
+        width: 38%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .descricao {
+        width: 50%;
+    }
+}
